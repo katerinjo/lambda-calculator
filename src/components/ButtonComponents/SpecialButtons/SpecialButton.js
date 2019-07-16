@@ -1,6 +1,6 @@
 import React from "react";
 
-const SpecialButton = ({ children }) => {
+export default ({ children }) => {
   return (
     <button>
       {children}

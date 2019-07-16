@@ -6,7 +6,7 @@ import OperatorButton from "./OperatorButton.js";
 //Import your array data to from the provided data file
 import { operators } from "../../../data.js";
 
-export default Operators = () => {
+function Operators() {
   // STEP 2 - add the imported data to state
   const [currentOperators, setCurrentOperators] = useState(operators);
   return (
@@ -15,3 +15,5 @@ export default Operators = () => {
     </div>
   );
 };
+
+export default Operators;
