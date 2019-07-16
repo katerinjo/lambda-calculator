@@ -11,7 +11,7 @@ function Operators() {
   const [currentOperators, setCurrentOperators] = useState(operators);
   return (
     <div>
-      {currentOperators.map(operator => <OperatorButton>{operator}</OperatorButton>)}
+      {currentOperators.map(operator => <OperatorButton>{operator.char}</OperatorButton>)}
     </div>
   );
 };
