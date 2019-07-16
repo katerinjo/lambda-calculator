@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+.App {
+    background-color: maroon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.flow-down {
+    display: flex;
+    flex-direction: column;
+}
+
+.flow-right {
+    display: flex;
+    flex-direction: row;
+}
+
+#display {
+    background-color: darkgray;
+
+}
